@@ -1,0 +1,23 @@
+body
+{
+    background-color: burlywood;
+}
+
+nav
+{
+    text-align: center;
+}
+
+#myHeader
+{
+    color: greenyellow; 
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    font-size: xx-large;
+    colo
+}
+
+.user_reviews p
+{
+    color: red;
+}
