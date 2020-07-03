@@ -1,18 +1,55 @@
 body {
-  background-color: burlywood;
-}
-
-nav {
-  text-align: center;
+  font-family: "Operator Mono", Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 
 #myHeader {
-  color: greenyellow;
-  background-color: black;
+  color: #ffce54;
+  background-color: #3bafda;
+  margin: 0px;
   padding: 10px 10px 10px 10px;
   font-size: xx-large;
+  text-align: center;
 }
 
-.user_reviews p {
-  color: red;
+/* nav {
+  
+} */
+
+.myNav {
+  text-align: center;
+  margin: 0px;
+  background-color: #ffce54;
+  text-align: center;
+}
+
+.myNav ul {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+.myNav li {
+  display: inline;
+  padding: 10px 20px;
+}
+
+.myNav a {
+  color: #4a89dc;
+  text-decoration: none;
+}
+
+.myNav li:hover {
+  background-color: #3bafda;
+  color: #ffce54;
+  cursor: pointer;
+}
+
+.myNav li:hover > a {
+  color: #ffce54;
+  text-decoration: none;
+}
+
+article {
+  line-height: 2em;
 }
