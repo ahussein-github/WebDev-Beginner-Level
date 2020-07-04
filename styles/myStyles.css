@@ -27,6 +27,9 @@ h2 {
   text-align: center;
   font-size: larger;
   margin: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .mainNav ul {
@@ -129,6 +132,19 @@ h2 {
 
 #mainSection h3 {
   font-size: x-large;
+}
+
+#fixedGit {
+  position: fixed;
+  right: 20px;
+  bottom: 0px;
+  background-color: white;
+  color: #ffce54;
+  padding: 5px;
+}
+
+#fixedGit a {
+  text-decoration: none;
 }
 
 #mainFooter {
