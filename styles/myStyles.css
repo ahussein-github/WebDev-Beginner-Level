@@ -147,16 +147,18 @@ h2 {
 
   #bgImage h2 {
     width: 100%;
-    margin: auto;
+    margin: 0;
+    box-sizing: border-box;
     margin-top: 270px;
     font-size: 24px;
   }
 
+  .container,
   #sidebar,
   #mainSection {
     width: 100%;
     float: none;
-    overflow: initial;
+    overflow: hidden;
   }
 }
 
