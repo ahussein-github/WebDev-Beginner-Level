@@ -59,11 +59,12 @@ h2 {
 
 /* Background Image Header */
 #bgImage {
-  background-image: url("../assets/images/developers-bg.jpg");
+  /* background-image: url("../assets/images/developers-bg.jpg"); */
+  background-image: url("../assets/images/programmer-wallpaper.jpg");
   background-size: cover;
-  background-position: center;
-  min-height: 200px;
-  padding-top: 250px;
+  background-position: top;
+  min-height: 180px;
+  padding-top: 200px;
   padding-bottom: 50px;
 }
 
