@@ -1,9 +1,12 @@
-body {
+/* Body Styles */
+body,
+h2 {
   font-family: "Operator Mono", Arial, Helvetica, sans-serif;
-  margin: 0px;
+  margin: 0;
 }
 
-#myHeader {
+/* Page Header Styles */
+#mainHeader {
   color: #ffce54;
   background-color: #3bafda;
   margin: 0px;
@@ -12,44 +15,85 @@ body {
   text-align: center;
 }
 
-/* nav {
-  
-} */
-
-.myNav {
-  text-align: center;
-  margin: 0px;
+/* Top Navigation Styles */
+.mainNav {
   background-color: #ffce54;
   text-align: center;
+  font-size: larger;
+  margin: 0px;
 }
 
-.myNav ul {
+.mainNav ul {
   margin: 0;
-  padding: 10px;
+  padding: 10px 15px;
   list-style: none;
 }
 
-.myNav li {
+.mainNav li {
   display: inline;
-  padding: 10px 20px;
+  padding: 10px 15px;
 }
 
-.myNav a {
+.mainNav a {
   color: #4a89dc;
   text-decoration: none;
 }
 
-.myNav li:hover {
+.mainNav li:hover {
   background-color: #3bafda;
   color: #ffce54;
   cursor: pointer;
 }
 
-.myNav li:hover > a {
+.mainNav li:hover > a {
   color: #ffce54;
   text-decoration: none;
 }
 
+#selectedNav,
+#selectedNav > a {
+  background-color: #3bafda;
+  color: #ffce54;
+  cursor: default;
+}
+
+/* Background Image Header */
+#bgImage {
+  background-image: url("../assets/images/developers-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+  padding-top: 250px;
+  padding-bottom: 50px;
+}
+
+#bgImage h2 {
+  background-color: #ffce54;
+  color: #3bafda;
+  font-size: 36px;
+  line-height: 1.5em;
+  margin-top: 100px;
+  margin-left: 60%;
+  padding: 10px 10px 10px 30px;
+}
+
+#yesButton {
+  background-color: #3bafda;
+  color: #ffce54;
+  font-size: 36px;
+  border-style: none;
+  cursor: pointer;
+}
+
+#yesButton:hover {
+  background-color: #ffce54;
+  color: #3bafda;
+  font-size: 36px;
+  border-style: none;
+  cursor: grab;
+}
+
+/* Other Styles */
 article {
   line-height: 2em;
 }

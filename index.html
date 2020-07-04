@@ -3,19 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/html-favicon.png"
+      type="image/x-icon"
+    />
     <link href="styles/myStyles.css" rel="stylesheet" />
-    <title>💻 WebDev Beginner Level 🤓</title>
+    <title>WebDev Beginner Level</title>
   </head>
-
   <body>
-    <header id="myHeader"><h1>WebDev Homepage</h1></header>
-    <nav class="myNav">
-      <ul>
-        <li><a href="./pages/html-tags.html">HTML TAGS</a></li>
-        <li><a href="./pages/emmet.html">Emmet</a></li>
-        <li><a href="./pages/Jolie/jolie.html">Jolie</a></li>
-      </ul>
+    <!-- Header ------------------------------------------------------------->
+    <header>
+      <div id="mainHeader">
+        <h1>
+          💻 WebDev Beginner Level 🤓
+        </h1>
+      </div>
+    </header>
+    <!-- Navigation --------------------------------------------------------->
+    <nav>
+      <div class="mainNav">
+        <ul>
+          <li id="selectedNav"><a href="#">&lt;/Home&gt;</a></li>
+          <li><a href="./pages/html-tags.html">&lt;/HTML Tags&gt;</a></li>
+          <li><a href="./pages/emmet.html">&lt;/Emmet&gt;</a></li>
+          <li><a href="./pages/Jolie/jolie.html">&lt;/Jolie&gt;</a></li>
+        </ul>
+      </div>
     </nav>
+    <!-- Section ----------------------------------------------------------->
+    <section>
+      <div id="bgImage">
+        <h2>
+          &gt Welcome to WebDev 😎 <br />
+          &gt Are You Ready?
+          <button id="yesButton" type="submit">Yes!</button>
+        </h2>
+      </div>
+    </section>
     <article>
       <header>This is article header</header>
       <section>This is first section</section>
