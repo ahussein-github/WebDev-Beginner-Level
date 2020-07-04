@@ -5,6 +5,12 @@ h2 {
   margin: 0;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
 /* Page Header Styles */
 #mainHeader {
   color: #ffce54;
@@ -74,7 +80,7 @@ h2 {
   font-size: 36px;
   line-height: 1.5em;
   margin-top: 100px;
-  margin-left: 60%;
+  margin-left: 65%;
   padding: 10px 10px 10px 30px;
 }
 
@@ -94,7 +100,67 @@ h2 {
   cursor: grab;
 }
 
-/* Other Styles */
-article {
+#sidebar {
+  background-color: #ffce54;
+  color: #3bafda;
+  float: left;
+  width: 29%;
+  padding: 10px 30px;
+  margin-top: 5px;
   line-height: 2em;
+  border-right: 2px solid tomato;
+  box-sizing: border-box;
+  font-size: larger;
+  text-align: justify;
 }
+
+#mainSection {
+  background-color: #3bafda;
+  color: #ffce54;
+  float: right;
+  width: 70%;
+  margin-top: 20px;
+  padding: 10px 30px;
+  line-height: 2em;
+  border-left: 2px solid royalblue;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+#mainSection h3 {
+  font-size: x-large;
+}
+
+#mainFooter {
+  background-color: #ffce54;
+  color: #3bafda;
+  text-align: center;
+  padding: 30px;
+  margin-top: 30px;
+  font-size: x-large;
+}
+
+@media (max-width: 1000px) {
+  #spaces {
+    display: none;
+  }
+
+  #bgImage h2 {
+    width: 100%;
+    margin: auto;
+    margin-top: 270px;
+    font-size: 24px;
+  }
+
+  #sidebar,
+  #mainSection {
+    width: 100%;
+    float: none;
+    overflow: initial;
+  }
+}
+
+/* Other Styles */
+/* article {
+  line-height: 2em;
+} */
