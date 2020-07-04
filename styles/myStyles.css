@@ -68,8 +68,8 @@ h2 {
   /* background-image: url("../assets/images/developers-bg.jpg"); */
   background-image: url("../assets/images/programmer-wallpaper.jpg");
   background-size: cover;
-  background-position: top;
-  min-height: 180px;
+  background-position: bottom;
+  min-height: 280px;
   padding-top: 200px;
   padding-bottom: 50px;
 }
@@ -143,6 +143,14 @@ h2 {
 @media (max-width: 1000px) {
   #spaces {
     display: none;
+  }
+
+  .mainNav {
+    padding: 0px;
+  }
+  .mainNav ul,
+  .mainNav li {
+    padding: 10px 10px;
   }
 
   #bgImage h2 {
